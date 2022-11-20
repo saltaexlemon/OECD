@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.example.oecd">
+    package="com.example.registrationandprofile">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
 
     <application
         android:allowBackup="true"
@@ -11,62 +13,39 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.OECD"
+        android:theme="@style/Theme.RegistrationAndProfile"
         tools:targetApi="31">
-        <activity
-            android:name=".UserDetailsServicePostActivity"
-            android:exported="false" />
-        <activity
-            android:name=".UserDetailsEmergencyPostActivity"
-            android:exported="false" />
-        <activity
-            android:name=".UserViewServiceActivity"
-            android:exported="false" />
-        <activity
-            android:name=".UserViewEmergencyActivity"
-            android:exported="false" />
-        <activity
-            android:name=".AdminUpdateServicePostActivity"
-            android:exported="false" />
-        <activity
-            android:name=".AdminUpdateEmergencyPostActivity"
-            android:exported="false" />
-        <activity
-            android:name=".AdminViewEmergencyActivity"
-            android:exported="false" />
-        <activity
-            android:name=".AdminAddEmergencyActivity"
-            android:exported="false" />
-        <activity
-            android:name=".AdminViewServiceActivity"
-            android:exported="false" />
-        <activity
-            android:name=".AdminAddServiceActivity"
-            android:exported="false" />
-        <activity
-            android:name=".UserHomePageActivity"
-            android:exported="false" />
-        <activity
-            android:name=".AdminHomePageActivity"
-            android:exported="false" />
-        <activity
-            android:name=".ForgotPasswordActivity"
-            android:exported="false" />
-        <activity
-            android:name=".RegisterActivity"
-            android:exported="false" />
+
         <activity
             android:name=".MainActivity"
-            android:exported="false" />
-        <activity
-            android:name=".StartingActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <activity android:name=".UserProfile" android:exported="true">
+            <intent-filter>
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".RegisterUser" android:exported="true">
+            <intent-filter>
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".changeProfile" android:exported="true">
+            <intent-filter>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+
     </application>
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
 
 </manifest>
