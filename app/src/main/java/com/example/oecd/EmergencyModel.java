@@ -10,16 +10,16 @@ public class EmergencyModel {
 
     public EmergencyModel(String apFid, String apName, String apOfficeNumber, String apContactNumber, String apAddress,
                           String apState, String apWorkingDay, String apWorkingHour, String apImage, String apDescription) {
-        ApFid = apFid;
-        ApName = apName;
-        ApOfficeNumber = apOfficeNumber;
-        ApContactNumber = apContactNumber;
-        ApAddress = apAddress;
-        ApState = apState;
-        ApWorkingDay = apWorkingDay;
-        ApWorkingHour = apWorkingHour;
-        ApImage = apImage;
-        ApDescription = apDescription;
+        this.ApFid = apFid;
+        this.ApName = apName;
+        this.ApOfficeNumber = apOfficeNumber;
+        this.ApContactNumber = apContactNumber;
+        this.ApAddress = apAddress;
+        this.ApState = apState;
+        this.ApWorkingDay = apWorkingDay;
+        this.ApWorkingHour = apWorkingHour;
+        this.ApImage = apImage;
+        this.ApDescription = apDescription;
     }
 
     public String getApDescription() {

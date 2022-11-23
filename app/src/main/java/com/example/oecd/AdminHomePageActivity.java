@@ -10,7 +10,7 @@ import android.widget.ImageView;
 
 public class AdminHomePageActivity extends AppCompatActivity {
 
-    Button Service,Emergency;
+    Button Service,Emergency,request;
     ImageView logout;
 
     @Override
@@ -21,6 +21,14 @@ public class AdminHomePageActivity extends AppCompatActivity {
         Emergency = findViewById(R.id.openEmergency);
         Service = findViewById(R.id.openService);
         logout = findViewById(R.id.Admin_BtnLogout);
+        request = findViewById(R.id.gotoRequest);
+
+        request.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(AdminHomePageActivity.this, AdminViewRequestActivity.class));
+            }
+        });
 
         logout.setOnClickListener(new View.OnClickListener() {
             @Override

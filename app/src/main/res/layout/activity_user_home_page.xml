@@ -26,7 +26,7 @@
                 android:layout_height="42dp"
                 android:layout_gravity="end"
                 android:layout_marginEnd="15dp"
-                android:src="@drawable/ic_baseline_logout_24"/>
+                android:src="@drawable/ic_baseline_account_circle_24_white"/>
 
         </androidx.appcompat.widget.Toolbar>
 
@@ -103,6 +103,20 @@
         android:layout_marginTop="15dp"
         android:layout_marginStart="10dp"
         android:layout_marginEnd="10dp"/>
+
+    <Button
+        android:id="@+id/gotoRequest"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:background="@drawable/box"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="10dp"
+        android:text="View Request"
+        android:textColor="@color/white"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:textSize="18sp"/>
 
     <TextView
         android:layout_width="match_parent"

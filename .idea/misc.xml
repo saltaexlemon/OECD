@@ -3,6 +3,9 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/littl/OneDrive/Desktop/OECD/app/src/main/res/layout/activity_admin_update_request.xml" value="0.1" />
+        <entry key="..\:/Users/msius/Desktop/OECD/app/src/main/res/drawable-v24/ic_baseline_account_circle_24.xml" value="0.164" />
+        <entry key="..\:/Users/msius/Desktop/OECD/app/src/main/res/drawable-v24/ic_baseline_account_circle_24_white.xml" value="0.164" />
         <entry key="..\:/Users/msius/Desktop/OECD/app/src/main/res/drawable/border_box.xml" value="0.1655" />
         <entry key="..\:/Users/msius/Desktop/OECD/app/src/main/res/drawable/border_box_2.xml" value="0.1655" />
         <entry key="..\:/Users/msius/Desktop/OECD/app/src/main/res/drawable/border_button.xml" value="0.1655" />
@@ -15,19 +18,27 @@
         <entry key="..\:/Users/msius/Desktop/OECD/app/src/main/res/layout/activity_admin_add_service.xml" value="0.2526041666666667" />
         <entry key="..\:/Users/msius/Desktop/OECD/app/src/main/res/layout/activity_admin_home_page.xml" value="0.2526041666666667" />
         <entry key="..\:/Users/msius/Desktop/OECD/app/src/main/res/layout/activity_admin_update_emergency_post.xml" value="0.2526041666666667" />
+        <entry key="..\:/Users/msius/Desktop/OECD/app/src/main/res/layout/activity_admin_update_request.xml" value="0.2111111111111111" />
         <entry key="..\:/Users/msius/Desktop/OECD/app/src/main/res/layout/activity_admin_update_service_post.xml" value="0.2526041666666667" />
         <entry key="..\:/Users/msius/Desktop/OECD/app/src/main/res/layout/activity_admin_view_emergency.xml" value="0.2520833333333333" />
+        <entry key="..\:/Users/msius/Desktop/OECD/app/src/main/res/layout/activity_admin_view_request.xml" value="0.2375" />
         <entry key="..\:/Users/msius/Desktop/OECD/app/src/main/res/layout/activity_admin_view_service.xml" value="0.2520833333333333" />
         <entry key="..\:/Users/msius/Desktop/OECD/app/src/main/res/layout/activity_forgot_password.xml" value="0.2375" />
         <entry key="..\:/Users/msius/Desktop/OECD/app/src/main/res/layout/activity_main.xml" value="0.2526041666666667" />
         <entry key="..\:/Users/msius/Desktop/OECD/app/src/main/res/layout/activity_register.xml" value="0.2526041666666667" />
         <entry key="..\:/Users/msius/Desktop/OECD/app/src/main/res/layout/activity_starting.xml" value="0.2526041666666667" />
+        <entry key="..\:/Users/msius/Desktop/OECD/app/src/main/res/layout/activity_user_add_request.xml" value="0.2375" />
         <entry key="..\:/Users/msius/Desktop/OECD/app/src/main/res/layout/activity_user_details_emergency_post.xml" value="0.2375" />
         <entry key="..\:/Users/msius/Desktop/OECD/app/src/main/res/layout/activity_user_details_service_post.xml" value="0.2375" />
         <entry key="..\:/Users/msius/Desktop/OECD/app/src/main/res/layout/activity_user_home_page.xml" value="0.2526041666666667" />
+        <entry key="..\:/Users/msius/Desktop/OECD/app/src/main/res/layout/activity_user_profile.xml" value="0.2526041666666667" />
+        <entry key="..\:/Users/msius/Desktop/OECD/app/src/main/res/layout/activity_user_request_details.xml" value="0.2111111111111111" />
         <entry key="..\:/Users/msius/Desktop/OECD/app/src/main/res/layout/activity_user_view_emergency.xml" value="0.2375" />
+        <entry key="..\:/Users/msius/Desktop/OECD/app/src/main/res/layout/activity_user_view_request.xml" value="0.2375" />
         <entry key="..\:/Users/msius/Desktop/OECD/app/src/main/res/layout/activity_user_view_service.xml" value="0.2526041666666667" />
         <entry key="..\:/Users/msius/Desktop/OECD/app/src/main/res/layout/show_post.xml" value="0.2526041666666667" />
+        <entry key="..\:/Users/msius/Desktop/OECD/app/src/main/res/layout/show_post_2.xml" value="0.24871794871794872" />
+        <entry key="..\:/Users/msius/Desktop/OECD/app/src/main/res/layout/show_post_@.xml" value="0.24871794871794872" />
       </map>
     </option>
   </component>

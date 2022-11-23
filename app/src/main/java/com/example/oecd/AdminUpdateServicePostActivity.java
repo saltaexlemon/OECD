@@ -227,7 +227,7 @@ public class AdminUpdateServicePostActivity extends AppCompatActivity {
                 String ApWorkingDay = txtWorkingDay.getText().toString().trim();
                 String ApWorkingHour = txtWorkingHour.getText().toString().trim();
                 String ApDescription = txtDes.getText().toString().trim();
-                String ApFid = DFId;
+                String ApFid = postFID;
                 String ApImage = DImage;
 
                 if (TextUtils.isEmpty(ApName)){
@@ -339,7 +339,7 @@ public class AdminUpdateServicePostActivity extends AppCompatActivity {
 
     private void deleteRecord(String postFID) {
 
-        DatabaseReference DbRef = FirebaseDatabase.getInstance().getReference("Emergency")
+        DatabaseReference DbRef = FirebaseDatabase.getInstance().getReference("Service")
                 .child(postFID);
         Task<Void> mTask =DbRef.removeValue();
         mTask.addOnSuccessListener(new OnSuccessListener<Void>() {

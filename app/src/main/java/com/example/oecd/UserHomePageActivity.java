@@ -32,7 +32,7 @@ public class UserHomePageActivity extends AppCompatActivity {
 
     ImageView logout;
     FirebaseAuth mAuth;
-    Button Service,Emergency;
+    Button Service,Emergency,request;
     TextView txtEmail;
     FirebaseAuth auth ;
     RecyclerView recyclerView;
@@ -54,6 +54,14 @@ public class UserHomePageActivity extends AppCompatActivity {
         Emergency = findViewById(R.id.openEmergency);
         Service = findViewById(R.id.openService);
         txtEmail = findViewById(R.id.txtEmail);
+        request = findViewById(R.id.gotoRequest);
+
+        request.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(UserHomePageActivity.this, UserViewRequestActivity.class));
+            }
+        });
 
         auth = FirebaseAuth.getInstance();
         FirebaseUser user = auth.getCurrentUser();
@@ -130,10 +138,7 @@ public class UserHomePageActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
 
-                Intent intent = new Intent(UserHomePageActivity.this, MainActivity.class);
-                startActivity(intent);
-                mAuth.signOut();
-                finish();
+                startActivity(new Intent(UserHomePageActivity.this, UserProfileActivity.class));
 
             }
         });
